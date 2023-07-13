@@ -60,6 +60,17 @@ local plugins = {
     'mbbill/undotree',
     -- Git visualiser
     'tpope/vim-fugitive',
+    {
+        "nvim-tree/nvim-tree.lua",
+        version = "*",
+        lazy = false,
+        dependencies = {
+            "nvim-tree/nvim-web-devicons",
+        },
+        config = function()
+            require("nvim-tree").setup {}
+        end,
+    },
 }
 -- options
 local opts = {
@@ -69,8 +80,4 @@ local opts = {
 require("lazy").setup(plugins, opts)
 
 -- Telescope configuration
-require('after.plugins_config.telescope')
-require('after.plugins_config.treesitter')
-require('after.plugins_config.lspzero')
-require('after.plugins_config.undotree')
-require('after.plugins_config.fugitive')
+

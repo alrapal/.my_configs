@@ -5,3 +5,5 @@ lsp.on_attach(function(client, bufnr)
 end)
 
 lsp.setup()
+
+vim.keymap.set("n", "<leader>ff", vim.cmd.LspZeroFormat)

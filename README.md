@@ -19,7 +19,7 @@ Plugin manager is [Lazy.nvim](https://github.com/folke/lazy.nvim)
 |[Telescope](https://github.com/nvim-telescope/telescope.nvim)|Fuzzy finder|
 |[UndoTree](https://github.com/mbbill/undotree)|History of changes made in a file|
 |[vim-fugitive](https://github.comi/tpope/vim-fugitve)| Git visualiser |
-
+|[NvimTree](https://github.com/nvim-tree/nvim-tree.lua)|File explorer|
 ## Keybinding summary
 
 |Key|Function|Toughts|
@@ -30,7 +30,8 @@ Plugin manager is [Lazy.nvim](https://github.com/folke/lazy.nvim)
 |**Telescope**|-|-|
 |`Space + p + f`|Fuzzy search in files|pf = project files|
 |`Space + g + f`|Fuzzy search in git files|gf = git files|
-|`Space + p + s`|Initialise `Grep` command|ps = project search|
+|`Space + s`|Initialise `Grep` command|ps = project search|
+|`Space + f + f`|Format the file using LSP from LSPZero|ff = Format File|
 
 ## Install LSP
 
@@ -40,6 +41,3 @@ To install a new LSP:
 2. Run `:LspInstall` to get a list of available LSPs for the file type
 3. Install following the provided prompt instructions
 
-## Format File:
-
-`:LspZeroFormat`
