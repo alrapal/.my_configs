@@ -34,6 +34,8 @@ Plugin manager is [Lazy.nvim](https://github.com/folke/lazy.nvim)
 |`Space + s`|Initialise `Grep` command|ps = project search|
 |`Space + f + f`|Format the file using LSP from LSPZero|ff = Format File|
 |`Space + s + b`|Show the opened buffer in the nvim instance|sb = Show Buffe|
+|`Space + u`|Open UndoTree (changes made to the file since nvim instance has been open)|u = UndoTree|
+|`Space + f`| Focus UndoTree panel allowing interraction| f = focus|
 
 ## Install LSP
 

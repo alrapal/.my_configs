@@ -25,7 +25,7 @@ local plugins = {
     {
         "EdenEast/nightfox.nvim",
         -- Set the colorscheme on booting
-        config = function() vim.cmd('colorscheme Carbonfox') end,
+        config = function() vim.cmd('colorscheme Terafox') end,
     },
     -- Markdown preview in browser
     {
