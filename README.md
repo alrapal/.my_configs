@@ -26,12 +26,14 @@ Plugin manager is [Lazy.nvim](https://github.com/folke/lazy.nvim)
 |---|---|---|
 |**Main**|-|-|
 |`Space`|Leader key||
-|`Space + p`| Tree view|p = project|
+|`Space + q`| Tree view| easy layout |
+|`Space + a`| Focus Tree view|a under q|
 |**Telescope**|-|-|
 |`Space + p + f`|Fuzzy search in files|pf = project files|
 |`Space + g + f`|Fuzzy search in git files|gf = git files|
 |`Space + s`|Initialise `Grep` command|ps = project search|
 |`Space + f + f`|Format the file using LSP from LSPZero|ff = Format File|
+|`Space + s + b`|Show the opened buffer in the nvim instance|sb = Show Buffe|
 
 ## Install LSP
 
