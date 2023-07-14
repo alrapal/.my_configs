@@ -36,6 +36,8 @@ Plugin manager is [Lazy.nvim](https://github.com/folke/lazy.nvim)
 |`Space + s + b`|Show the opened buffer in the nvim instance|sb = Show Buffe|
 |`Space + u`|Open UndoTree (changes made to the file since nvim instance has been open)|u = UndoTree|
 |`Space + f`| Focus UndoTree panel allowing interraction| f = focus|
+|`Space + ro`| Enter `:%s/` to start looking for all string occurences in a file| ro = replace occurence|
+
 
 ## Install LSP
 
