@@ -28,15 +28,18 @@ Plugin manager is [Lazy.nvim](https://github.com/folke/lazy.nvim)
 |`Space`|Leader key||
 |`Space + q`| Tree view| easy layout |
 |`Space + a`| Focus Tree view|a under q|
+|`Space + ro`| Enter `:%s/` to start looking for all string occurences in a file| ro = replace occurence|
 |**Telescope**|-|-|
 |`Space + p + f`|Fuzzy search in files|pf = project files|
 |`Space + g + f`|Fuzzy search in git files|gf = git files|
 |`Space + s`|Initialise `Grep` command|ps = project search|
 |`Space + f + f`|Format the file using LSP from LSPZero|ff = Format File|
 |`Space + s + b`|Show the opened buffer in the nvim instance|sb = Show Buffe|
+|**UndoTree**|-|-|
 |`Space + u`|Open UndoTree (changes made to the file since nvim instance has been open)|u = UndoTree|
 |`Space + f`| Focus UndoTree panel allowing interraction| f = focus|
-|`Space + ro`| Enter `:%s/` to start looking for all string occurences in a file| ro = replace occurence|
+|**LSPZero**|-|-|
+|`Enter`|Accept first proposed element for autocompletion|-|
 
 
 ## Install LSP
