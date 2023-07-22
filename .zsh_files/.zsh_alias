@@ -5,8 +5,7 @@ alias projects="cd ~/Dev/Projects/"
 alias synchro="cd ~/Dev/Projects/SynchroCalculator/"
 
 # Programmes (MacOS only)
-if [[ "$OSTYPE" == "Darwin"* ]];then
-    echo "Loading MacOS app aliases"
+if [[ "$OSTYPE" == "darwin"* ]];then
     alias choose="Choose4Me"
     alias obsi="open -a obsidian"
     alias ankama="open -a 'Ankama Launcher'"

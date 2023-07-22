@@ -100,7 +100,7 @@ main() {
     check_os
     install_xcode
     install_homebrew
-#    install_packages
+    install_packages
     simlink
 }
 
