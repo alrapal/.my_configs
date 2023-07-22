@@ -1,0 +1,16 @@
+# Repositories 
+
+alias eiffelvis="cd $HOME/Dev/Projects/EiffelVis"
+alias projects="cd ~/Dev/Projects/"
+alias synchro="cd ~/Dev/Projects/SynchroCalculator/"
+
+# Programmes (MacOS only)
+if [[ "$OSTYPE" == "Darwin"* ]];then
+    echo "Loading MacOS app aliases"
+    alias choose="Choose4Me"
+    alias obsi="open -a obsidian"
+    alias ankama="open -a 'Ankama Launcher'"
+    alias zoom="open -a 'zoom.us'"
+    alias slack="open -a 'slack'"
+    alias trello="open -a trello"
+fi
