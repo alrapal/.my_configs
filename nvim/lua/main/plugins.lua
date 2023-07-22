@@ -79,5 +79,3 @@ local opts = {
 -- setup lazy, passing pluggin list and options
 require("lazy").setup(plugins, opts)
 
--- Telescope configuration
-
