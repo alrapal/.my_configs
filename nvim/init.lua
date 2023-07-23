@@ -1,3 +1,5 @@
+-- Deactivate the terminal color to avoid conflicts
+vim.o.termguicolors = false
 -- Deactivate default tree view to avoid conflict with NvimTree
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1

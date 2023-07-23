@@ -1,3 +1,7 @@
 [user]
 	email = "71485862+alrapal@users.noreply.github.com"
-	name = Alexandre Rancati-Palmer
+    name = Alexandre Rancati-Palmer
+[init]
+    defaultBranch = main
+[core]
+    editor = nvim
