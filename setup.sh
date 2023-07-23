@@ -80,9 +80,9 @@ create_simlink() {
 # Function to create simlinks
 simlink(){
     
-    nvim_path="$HOME/.config/nvim"
-    zshrc_path="$HOME/.zshrc"
-    gitconfig_path="$HOME/.gitconfig"
+    local nvim_path="$HOME/.config/nvim"
+    local zshrc_path="$HOME/.zshrc"
+    local gitconfig_path="$HOME/.gitconfig"
     
     # Checks if the .config folder exists in the home directory and creates it otherwise
     if ! test -d "$HOME/.config/"; then
