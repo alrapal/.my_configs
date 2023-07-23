@@ -42,6 +42,8 @@ brew "wget"
 brew "armmbed/formulae/arm-none-eabi-gcc"
 
 #<-------- CASKS ------------> 
+# Obsidian markdown editor
+cask "obsidian"
 # Warp terminal 
 cask "warp"
 # Docker desktop
