@@ -6,6 +6,7 @@ alias synchro="cd ~/Dev/Projects/SynchroCalculator/"
 
 # Programmes (MacOS only)
 if [[ "$OSTYPE" == "darwin"* ]];then
+    alias net="open -a 'brave browser'"
     alias choose="Choose4Me"
     alias obsi="open -a obsidian"
     alias ankama="open -a 'Ankama Launcher'"

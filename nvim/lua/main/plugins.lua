@@ -22,10 +22,14 @@ local plugins = {
     },
 
     -- Theme
+    { "catppuccin/nvim", 
+        name = "catppuccin", 
+        priority = 1000, 
+        config = function() vim.cmd.colorscheme "catppuccin" end,},
     {
-        "EdenEast/nightfox.nvim",
+      "EdenEast/nightfox.nvim",
         -- Set the colorscheme on booting
-        config = function() vim.cmd('colorscheme Terafox') end,
+        --config = function() vim.cmd('colorscheme Terafox') end,
     },
     -- Markdown preview in browser
     {
